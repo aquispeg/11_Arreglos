@@ -11,7 +11,8 @@ int main(){
         suma=suma +A[i];
     }
     prom=suma/n;
-    cout<<"elementos mayores al promedio ("<<prom<<")";
+    cout<<"el promedio de los numeros es: "<<prom<<endl;
+    cout<<"elementos mayores al promedio: ";
     for (int i=0; i<n; i++){
         if (A[i]>prom){
             cout <<"\n"<<A[i];
