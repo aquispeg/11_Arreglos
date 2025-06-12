@@ -2,6 +2,7 @@
 using namespace std;
 int main (){
 int n, max, A[20];
+cout<<"ingrese la cantidad de numeros: "<<endl;
 cin>>n;
 for(int i=0;i<n;i++){
     cin>>A[i];
@@ -12,6 +13,6 @@ for (int i=1;i<n;i++){
         max=A[i];
     }
 }
-cout<<max;
+cout<<"el numero mayor es: "<<max;
 return 0;
 }
